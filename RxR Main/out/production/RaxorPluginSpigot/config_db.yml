@@ -1,0 +1,9 @@
+###########################################
+# /!\ MySQL uniquement pour le moment /!\ #
+###########################################
+
+host: "141.94.37.230"
+port: "8083"
+db_name: "api_minecraft"
+username: "minecraft-api"
+password: "FWVMIeCcYyrHO/ca"
