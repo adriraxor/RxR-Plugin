@@ -1,6 +1,5 @@
 package com.adriraxor.raxorplugin;
 
-import com.adriraxor.raxorplugin.Event.Event;
 import com.adriraxor.raxorplugin.economy.MobKilled;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.plugin.java.JavaPlugin;
