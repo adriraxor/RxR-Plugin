@@ -16,7 +16,7 @@ import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class ServerEvent implements Listener {
+public class DatabaseDataRegister implements Listener {
 
     DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
     LocalDateTime dateNow = LocalDateTime.now();

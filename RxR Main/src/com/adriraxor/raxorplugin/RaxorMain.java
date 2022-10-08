@@ -2,7 +2,7 @@ package com.adriraxor.raxorplugin;
 
 import com.adriraxor.raxorplugin.Api.DaoSQL;
 import com.adriraxor.raxorplugin.LIB.EconomyLIB;
-import com.adriraxor.raxorplugin.Server.ServerEvent;
+import com.adriraxor.raxorplugin.Server.DatabaseDataRegister;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -28,13 +28,13 @@ public class RaxorMain extends JavaPlugin {
         System.out.println(ChatColor.GOLD + "" + ChatColor.BOLD + "@Desc : plugin database\n");
         System.out.println(ChatColor.RED  + "" + ChatColor.BOLD + "#~~~#~~~#~~~#~~~#~~~#~~~#~~~#~~~#~~~#~~~#~~~#\n");
 
-        getServer().getPluginManager().registerEvents(new ServerEvent(), this);
+        getServer().getPluginManager().registerEvents(new DatabaseDataRegister(), this);
 
 
         if(daoSQL.getInstance() == null){
-            System.out.println(ChatColor.GOLD + "[RaxorPlugin - Main] Database disconnected.");
+            System.out.println(ChatColor.GOLD + "[RaxorPlugin - Main] Base de données non connecté.");
         } else {
-            System.out.println(ChatColor.GOLD + "[RaxorPlugin - Main] Database connected.");
+            System.out.println(ChatColor.GOLD + "[RaxorPlugin - Main] Base de données connecté.");
         }
     }
 
