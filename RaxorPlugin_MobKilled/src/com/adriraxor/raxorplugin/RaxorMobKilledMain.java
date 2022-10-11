@@ -25,7 +25,7 @@ public class RaxorMobKilledMain extends JavaPlugin {
         }
 
         if(!setupRaxorMain()){
-            log.severe(ChatColor.RED + "RaxorMain non détecté, le plugin a été desactivé");
+            log.severe(ChatColor.RED + "RaxorMain non détecté, le plugin a été desactivé.");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
