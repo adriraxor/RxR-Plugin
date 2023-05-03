@@ -1,0 +1,4 @@
+name: RaxorPlugin
+version: 0.1
+author: Adriraxor
+main: com.adriraxor.raxorplugin.RaxorMobKilledMain
